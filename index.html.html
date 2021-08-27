@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #firstbar {
+            background-color: #333742;
+            width: 100%;
+            height: 70px;
+            color: white;
+
+        }
+
+        .logo {
+            padding-left: 165px;
+            padding-top: 6px;
+        }
+
+        .info {
+            float: right;
+            display: flex;
+            margin-top: -25px;
+            margin-right: 10%;
+
+        }
+
+        #secondbar {
+            background-color: whitesmoke;
+            color: black;
+            padding: 5px;
+            width: 80%;
+            margin: auto;
+            position: absolute;
+            z-index: 5;
+            left: 0;
+            right: 0;
+            top: 52px;
+
+        }
+
+        .parent {
+            list-style-type: none;
+            display: flex;
+            float: left;
+        }
+
+        li {
+            margin-left: 35px;
+        }
+
+        .search {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+
+        }
+        .orange{
+            color: #e17318;
+        }
+        #image{
+            width: 100%;
+            height: 600px;
+        }
+        #imagesection{
+            position: absolute;
+            margin-left: 25%;
+            top: 0;
+            color: white;
+        }
+        #textcenter{
+            position: relative;
+        }
+        .imgtext{
+            font-size: 4em;
+            margin-top: 20%;
+        }
+        .imgpara{
+            font-size: 20px;
+            margin: inherit;
+            margin-top: -50px;
+        }
+        .mt-10{
+            margin-top: 10% !important;
+        }
+        #imgbutton{
+            background: #e35f09;
+            border: 1px solid #e35f09;
+            width: 22%;
+            height: 50px;
+            color: white;
+            margin: inherit;
+        }
+        input{
+            padding: 15px;
+        }
+        .searchicon{
+            right: 14px;
+            top: 13px;
+            position: absolute
+        }
+        body{
+            margin: 0;
+        }
+        .info img{
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav id="firstbar">
+            <div class="logo">
+                <img src="bulb.PNG" alt="">Power
+            </div>
+            <div class="info">
+                <div>
+                    <img src="location.PNG" alt="">Discover St. New York NY 10012.USA
+                </div>
+                <div>
+                    <img src="time.PNG" alt="">Mon-Sat-9:00-18:00
+                </div>
+                <div>
+                    <img src="call.PNG" alt="">
+                    +251-254-3256
+                </div>
+            </div>
+
+        </nav>
+        <nav id="secondbar">
+            <ol class="parent">
+                <li class="orange">
+                    HOME
+                </li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Pages</li>
+                <li>News</li>
+                <li>Contact us</li>
+
+
+            </ol>
+            <input class="search" placeholder="search here" name="" id="">
+            <img class="searchicon" src="search.PNG" alt="">
+        </nav>
+    </header>
+    <section id="textcenter">
+        <img width="100%" src="smart-indian-engineer-man-worker-wearing-safety-helmet-doing-stocktaking-product-management-cardboard-box-smart-indian-158050884.jpg" alt="">
+        <div id="imagesection">
+            <h1 class="imgtext">
+                Fast Electrical Services Provider
+
+            </h1>
+            <p class="imgpara">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button id="imgbutton" class="mt-10">Contact Now</button>
+        </div>
+
+    </section>
+    <h2 class="orange">Request</h2>
+    <h2>Services Now</h2>
+    <div class="footer">
+        <input placeholder="Your name" type="Your name">
+        <input placeholder="enter email" type="enter email" name="">
+        <input placeholder="Phone number" type="Phone number" name="">
+        <button id="imgbutton">Get Services</button>
+    </div>
+</body>
+
+</html>
